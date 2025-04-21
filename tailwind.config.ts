@@ -28,6 +28,8 @@ export default {
           light: "#e5f7fa",   // Pale teal
         },
         neutralBody: "#222222",
+        // Fix: Add border color (for .border-border)
+        border: "hsl(var(--border))",
       },
       boxShadow: {
         ngefos: "0 4px 20px rgba(23, 162, 184, 0.06)",
